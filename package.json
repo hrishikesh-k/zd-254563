@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@types/node": "20.12.12",
+    "netlify-cli": "17.23.5",
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "build:next": "npm run build --workspace=apps/next",
+    "dev:next": "npm run dev --workspace=apps/next"
+  },
+  "type": "module",
+  "workspaces": [
+    "./apps/next/"
+  ]
+}
