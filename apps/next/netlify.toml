@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build:next"
+  command = "npx turbo run build --filter='zd-254563-next'"
   publish = "./apps/next/.next/"
 [[plugins]]
   package = "@netlify/plugin-nextjs"
